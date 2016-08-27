@@ -1,0 +1,79 @@
+%
+% PROBLEMATIQUE : 
+%
+
+\documentclass[a4paper,12pt]{report}
+
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[francais]{babel} 
+
+\usepackage[a4paper,top=3cm,bottom=3cm]{geometry}
+
+\usepackage{pdfpages}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand\headrulewidth{1pt}
+\rhead{ \LaTeX }
+\cfoot{ \thepage }
+
+\renewcommand{\chaptername}{ }
+
+\newcommand{\para}[1]{\par{#1}\\}
+
+\title{De la théorie à la pratique : paramétrage d'outils informatiques pour une utilisation efficiente dans le domaine de la restauration}
+\author{QUÉLARD Xavier}
+\date{ \today{} }
+
+\makeindex
+
+\begin{document}
+
+
+\chapter*{Remerciements}
+
+
+\tableofcontents
+
+
+\chapter*{Introduction}
+\addcontentsline{toc}{chapter}{Introduction}
+
+
+\chapter{L'entreprise Polysoft et le service l'Addi+ion}
+	\section{Historique (de l'entreprise)}
+	ici je parle de la création, le changement de patrons, les employés etc
+	\section{Présentation de l'équipe}
+	ici je parle de comment polysoft s'est petit à petit diversifié pour rejoindre l'addition et METRO
+	\section{Etat des lieux d'entrée + diversification}
+	je parle des faits actuels : les employés de maintenant, l'ambiance de depart, d'arrivée, ce que chancun doit faire, ce qui permet justement d'enchainer sur la partie suivante
+
+\chapter{Preparation de commandes pour restaurants}
+	\section{Procédure d'une commande}
+	En profiter pour parler de la procédure standart (ou une sous partie entière) : 0) l'addition reçoit une commande, la transmet à  christelle, qui nous la donne 1) trouver un carton des bonnes dimensions, 2) rassembler le matériel, 3) remplir la feuille de preparation de commande 4) impression des étiquettes 5) paramétrage du matériel, étiquetage et rangement 6) impression du bon de livraison et de l'étiquette UPS ou Chronopost 7) câlage du carton, puis on le scelle 8) positionnement sur la plateforme d'envoi
+	\section{Les petits colis}
+		les simples petits colis avec 1, 2 ou 3 appareils demandés. Parfois sans paramétrage (l'entreprise compte paramétrer elle même, et peut être utiliser en partie d'autre matériel, et n'est donc intéressé que par certaines parties du stock) ou avec (retour ou 'completion' de commande, ou une METRO). 
+	\section{Commande d'un restaurant de petite taille}
+		le "classico" qui est en gros une TMT20 et sa bobine,un routeur Archer C20i, du câblage , une multiprise, un tiroir caisse et un iPad
+	\section{Commande d'un restaurant de grande taille}
+		Cette fois-ci, on a un nuc, souvent 2 unifis (deux salles, ou un etage + un rez de chaussée, un dedans et un dehors, enfin bref, une plus grande superficie), plusieurs TMT20 et bobine,  plusieurs tiroirs caisses, un routeur, un siwtch pour la connectique, plusieurs iPad (on a 1 iPad par TMT20 et tiroir caisse), du  cablage et plusieurs multiprises
+	\section{Autres tâches}
+		Comptabilité de la caisse, paperasse, rangement du matériel pour réduire l'encombrement, faire le stock, verifier les bons de commande et rager le matériel commandé puis reçu, parler du câblage, plus petits ajouts comme une boite pour les étiquettes et des ajouts dans des procédures
+
+\chapter{Bilan et perspectives de cette expérience}
+	\section{Bilan pour l'entreprise Polysoft}
+	je parle NOTAMMENT des histoires de vols et donc que ben les choses se sont pas mal arrangés pour l'entreprise
+	\section{Bilan personnel}
+	personnellement ça m'a fait grandir et avancer, et m'a aussi fait prendre de l'assurance (je manquais de pratique et donc d'itnitiative, j'ai beaucoup gagné à ce niveau là , surtout sur la fin où je me debrouillais toujours pour résoudre mes problemes de paramétrage seul), mais ça a été assez éprouvant avec ces histoires compliquées
+	Ça m'a fait plonger dans le monde des relations au travail, que j'imaginais beaucoup plus simples, et ça m'a fait beaucoup bosser :) Evidemment, il faut parler du fait de s'être formé au LATEX ! 
+
+
+\chapter*{Conclusion}
+\addcontentsline{toc}{chapter}{Conclusion}
+
+\para{
+	\og Tout progrès de l'action profite à la connaissance. Tout progrès de la connaissance profite à l'action. \fg \footnote{Edgard Morin, \emph{La Méthode}, 1977}
+}
+
+\end{document}
