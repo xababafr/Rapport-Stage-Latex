@@ -1,12 +1,13 @@
 %
-% PROBLEMATIQUE : 
+% PENSER À :
+% - vérifier taille de police et interligne
 %
 
 \documentclass[a4paper,12pt]{report}
 
 \usepackage[latin1]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[francais]{babel} 
+\usepackage[francais]{babel}
 
 \usepackage[a4paper,top=3cm,bottom=3cm]{geometry}
 
@@ -48,13 +49,13 @@
 \chapter*{Remerciements}
 
 \para{
-	En liminaire, je souhaite remercier Mr \emph{Gilles AURÉJAC} , gérant de la SARL "Polysoft Services" à Tours, qui m'a donné l'opportunité de réaliser mon stage de 1\up{ère} année d'école d'ingénieur au sein de son entreprise, et je lui suis recconnaissant d'avoir endossé le statut de maitre de stage. 
+	En liminaire, je souhaite remercier Mr \emph{Gilles AURÉJAC} , gérant de la SARL "Polysoft Services" à Tours, qui m'a donné l'opportunité de réaliser mon stage de 1\up{ère} année d'école d'ingénieur au sein de son entreprise, et je lui suis recconnaissant d'avoir endossé le statut de maitre de stage.
 }
 \para{
 	Mes remerciements les plus sincères vont à Mme \emph{Christelle TERMEAU}, pour son accueil chaleureux, ses conseils et son experience qui ont grandement accélérés mon intégration dans l'équipe et mon adaptation aux exigeances de ma mission.
-} 
+}
 \para{
-	Je suis particulièrement recconnaissant envers Mr \emph{Jonathan RAVIX} qui, au long de ces six semaines de stage, s'est assuré -avec beaucoup de bienveillance- de maintenir des relations chaleureuses entre stagiaires et techniciens. 
+	Je suis particulièrement recconnaissant envers Mr \emph{Jonathan RAVIX} qui, au long de ces six semaines de stage, s'est assuré -avec beaucoup de bienveillance- de maintenir des relations chaleureuses entre stagiaires et techniciens.
 }
 \para{
 	Je suis aussi diligeant envers l'équipe Polysoft, qui a su tout à la fois répondre à mes nombreuses interrogations et m'acccueillir avec sympathie.
@@ -81,7 +82,7 @@
 \addcontentsline{toc}{chapter}{Introduction}
 
 \para{
-	Confronté à l'objectif de rechercher un stage d'opérateur, l'idée de privilégier une petite structure m'est apparue comme une évidence. En effet, choisir une TPE\footnote{Toute Petite Entreprise} me semblait en adéquation avec mon désir d'embrasser un panorama large de la vie professionnelle. D'emblée, la société Polysoft à Tours, qui m'avait déjà accueilli pour un stage en troisième, correspondait à ce projet. 
+	Confronté à l'objectif de rechercher un stage d'opérateur, l'idée de privilégier une petite structure m'est apparue comme une évidence. En effet, choisir une TPE\footnote{Toute Petite Entreprise} me semblait en adéquation avec mon désir d'embrasser un panorama large de la vie professionnelle. D'emblée, la société Polysoft à Tours, qui m'avait déjà accueilli pour un stage en troisième, correspondait à ce projet.
 }
 
 \para{
@@ -93,11 +94,11 @@
 }
 
 \para{
-	Parallèlement, soucieux de ne pas réduire ce stage à la dimension technique et enclin à percevoir le versant des relations humaines dans un contexte professionnelle, j'avais l'intuition que l'enracinement dans le terreau d'une TPE serait plus rapide et moins impersonnel. 
+	Parallèlement, soucieux de ne pas réduire ce stage à la dimension technique et enclin à percevoir le versant des relations humaines dans un contexte professionnelle, j'avais l'intuition que l'enracinement dans le terreau d'une TPE serait plus rapide et moins impersonnel.
 }
 
 \para{
-	C'est donc accompagné de ces questionnements plus ou moins bien formulés et plein d'enthousiasme que je débutais, le lundi 20 Juin 2016, dans les locaux de Polysoft. 
+	C'est donc accompagné de ces questionnements plus ou moins bien formulés et plein d'enthousiasme que je débutais, le lundi 20 Juin 2016, dans les locaux de Polysoft.
 }
 
 \chapter{L'entreprise Polysoft et le service l'Addi+ion}
@@ -129,42 +130,92 @@
 
 %
 % -----------------------
-% [6] I -> l'EQUIPE
+% [6] I -> ETAT DES LIEUX
 % -----------------------
 %
 
-	\section{Présentation de l'équipe}
+	\section{Etat des lieux d'entrée}
+	\label{etatDesLieux}
 
 \para{
-	figure \ref{organigramme} page \pageref{organigramme}
+	Depuis 2010,plusieurs changements ont boulversés le fonctionnement de Polysoft. En 2012, \emph{Marc DOS SANTOS} équilibre l'équipe des techniciens, qui subit le départ  de \emph{Christophe FOUILLAT}. Dans cette même année, la solution L'Addition est développée. Il s'agit d'un service permettant d'utiliser un iPad comme caisse enregistreuse pour restaurants et bars. En 2013, Mr \emph{AURÉJAC} prends la descision d'acheter les locaux\footnote{les locaux étaient en location depuis 2003} , ce qui entraine la nécessité d'augmenter le chiffre d'affaire. Christophe Millot, l'un des fondateurs de la société LIMPIDA\footnote{cette entreprise développe des outils permettant aux grands groupes du CAC40 de gérer plus facilement leurs finances} est actionnaire de Polysoft. En bons termes, Mr \emph{AURÉJAC} et Mr \emph{MILLOT} vont ainsi créer la société ADSTELLAM : son but est de servir de plateforme de distribution de l'Addition. Il s'agit donc de gérer la préparation et l'expédition de commandes de matériel informatique aux bars et restaurants voulant se moderniser en faisant l'acquisition de la technologie L'Addition.
+}
+
+\para{
+	Après avoir partagé pendant six mois les locaux de LIMPIDA à Paris, la société ADSTELLAM acquiert de nouveaux locaux dans le 19\up{ème} arrondissement de Paris, où la prise de descision, les finances et le développement de la société sont effectués. Deux autres locaux sont choisis :
+}
+
+\begin{itemize}
+	\item Le premier, à Bordeaux, est établi le Service Après Vente d'ADSTELLAM. Ils gèrent également la prise de commande des clients, et les transmettent au local gérant l'expédition des commandes \\
+	\item C'est dans le second, à Tours, que se trouvent les locaux de Polysoft, qui sont transformés en 2013 pour être scindés en deux parties : l'atelier des techniciens, et l'atelier de préparation de commandes pour L'Addition.
+\end{itemize}
+
+\para{
+	La société Polysoft vit alors de ces deux activités très distinctes : la réparation de machines Apple, et la préparation de commandes -d'abord assurée par le technicien \emph{Jonathan RAVIX}- de matériel pour restaurants. En parallèle, \emph{Christelle TERMEAU} est progressivement formée pour la même tâche, et elle peut en 2014 remplacer Mr \emph{RAVIX}, lui permettant de reprendre son poste en atelier, où il est désormais chef d'atelier. En 2016, l'equipe va encore s'agrandir, après l'arrivée de \emph{Tristan GITTON}\footnote{technicien qui s'occupe entièrement de l'accueil des clients}, \emph{Vincent MARX}\footnote{en contrat de professionnalisation pour un an, il s'occupe du développement d'une solution permettant l'automatisation d'un bon nombre de tâches concernant la préparation de commandes pour l'Addition} et \emph{Serge CAMPO} \footnote{Préparateur de commandes à plein temps pour épauler Mme \emph{TERMEAU}}. La figure \ref{organigramme} page \pageref{organigramme} représente l'état actuel de l'equipe, après ces multiples changements. Les commandes pour L'Addition se multipliant, une solution est proposée pour alléger la charge de travail de Mme \emph{TERMEAU}. La société se met en accord avec le directeur du Lycée Becquerel\footnote{également situé à Tours}, Mr \emph{BERTEAUX}, pour régulièrement prendre en tant que stagiaire des élèves de son établissement, et dont la tâche sera d'aider Mme \emph{TERMEAU} dans la préparation de commandes.
+}
+\para{
+	C'est ainsi dans ce même but que j'ai pu être recruté en tant que stagiaire dans l'entreprise Polysoft. J'ai ainsi pu découvrir le monde du travail sous un aspect très concret, avec toutes les étapes de la conception d'un colis, mais aussi les contraintes quotidiennes d'une commande à préparer en urgence.
+	Je vais donc vous détailler, dans la partie suivante, tous les enseignements que j'ai pu retirer de ces six semaines de travail mais aussi comment se déroulait le paramétrage de plusieurs types de commandes classiques.
 }
 
 \begin{figure}
-	\centerline{ 
-		\includegraphics[scale=0.9]{images/organigramme} 
+	\centerline{
+		\includegraphics[scale=0.65]{images/organigramme}
 	}
 	\caption{Organigramme de l'entreprise Polysoft}
 	\label{organigramme}
 \end{figure}
 
-%
-% -----------------------
-% [?] I -> ETAT DES LIEUX
-% -----------------------
-%
+\clearpage
 
-	\section{Etat des lieux d'entrée + diversification}
-	\label{etatDesLieux}
-	je parle des faits actuels : les employés de maintenant, l'ambiance de depart, ce que chacun, + l'addition, METRO et le lycée becmachin. PArer des six dernieres nnées, Jo devient chef d'atelier en 2014
+%
+% -----------------------
+% [9] I -> PROCEDURE COMM
+% -----------------------
+%
 
 \chapter{Preparation de commandes pour restaurants}
 	\section{Procédure d'une commande}
-	En profiter pour parler de la procédure standart (ou une sous partie entière) : 0) l'addition reçoit une commande, la transmet à  christelle, qui nous la donne 1) trouver un carton des bonnes dimensions, 2) rassembler le matériel, 3) remplir la feuille de preparation de commande 4) impression des étiquettes 5) paramétrage du matériel, étiquetage et rangement 6) impression du bon de livraison et de l'étiquette UPS ou Chronopost 7) câlage du carton, puis on le scelle 8) positionnement sur la plateforme d'envoi
-	\section{Les petits colis}
-		les simples petits colis avec 1, 2 ou 3 appareils demandés. Parfois sans paramétrage (l'entreprise compte paramétrer elle même, et peut être utiliser en partie d'autre matériel, et n'est donc intéressé que par certaines parties du stock) ou avec (retour ou 'completion' de commande, ou une METRO). 
+
+\para{
+	Réaliser une commande pour un client de l'Addition est un processus que j'ai fait quotidiennement durant mon séjour dans l'entreprise \emph{Polysoft}, et chaque préparation suit les grandes lignes que je vais énoncer ci-dessous.
+}
+
+\begin{description}
+	\item[Etape 1 : ] L'addition reçoit la commande d'un client, qui veux moderniser l'équipement de son restaurant ou bar, et se servir de son iPad comme caisse enregistreuse. Cette commande est enregistrée dans la base de donnée de la société, puis transmise à Mme \emph{TERMEAU}, qui peux alors travailler dessus avec ses stagiaires, en l'occurence, un élève du lycée Becquerel et moi même. \\
+	\item[Etape 2 : ]  Il faut alors rassembler le matériel nécessaire pour la requêtedu client. On retrouve dans presque toutes les commandes des iPads (pour installer l'application l'Addition), une imprimante de tickets reliée à la caisse, et un tiroir caisse pour stocker la monnaie. Il faut alors choisir un carton de la taille adaptée, puis rassembler le matériel (pour le moment non paramétré) à l'intérieur.\\
+	\item[Etape 3 : ]  Nous devons alors, pour chaque commande, remplir une feuille de préparation de commande. Il s'agit d'un papier sur lequel est répertorié les numéros de série de chaque produit à envoyer, ainsi que quelques données de paramétrage choisies. \\
+	\item[Etape 4 : ] L'impression d'étiquettes est alors possible. Ces dernieres sont collées sur les différents produits et résument les informations de la feuille de préparation de commande concernant chaque produit en particulier, notamment leur paramétrage.  \\
+		\item[Etape 5 : ] Il est alors temps de rentrer dans la partie concrète, qui est le paramétrage de chaque produit. Les procédures de paramétrage de chaque produit que nous expédions est disponible en annexe, cependant, j'expliquerai les grandes lignes de cette étape dans la suite de cette partie, aux sections  \ref{petits}, \ref{moyens} et \ref{grands} respectivement page \pageref{petits}, \pageref{moyens} et \pageref{grands}.\\
+	\item[Etape 6 : ] Une fois les produits paramétrés, ils sont replacés dans le carton choisi précédemment. Il est alors possible d'imprimer le bon de livraison de la commande, qui se place à l'intérieur du colis, et une étiquette Chronopost ou UPS\footnote{le choix est fait par Mme \emph{TERMEAU} en fonction des horaires et possibilités des livreurs} qui se place à l'extérieur de ce dernier.  \\
+	\item[Etape 7 : ] Le colis est alors terminé, et il ne reste plus qu'à le câler\footnote{Il s'agit de remplir les espaces vides avec du carton ou du papier bulle} pour éviter toute dégradation du matériel durant la livraison au client.  \\
+	\item[Etape 8 : ] Enfin, le carton est scellé, puis placé sur la plateforme d'envoi, où un employé de Chronopost ou UPS pourra prendre la relève et porter le fruit de notre travail au client.  \\
+\end{description}
+
+\para{
+	Force est de constater que, si chaque commande est unique ne serais-ce que par son paramétrage, chaque préparation de commande suit un protocole bien élaboré et parfaitement défini. Nous allons maintenant voir que de nombreuses commandes se ressemblent également beaucoup de par le matériel et le paramétrage demandé. Dans les sections qui suivent, je vais vous détailler le paramétrage de trois commandes que l'on pourrait qualifier de \og classiques \fg .
+}
+
+	\section{Colis de petite taille}
+	\label{petits} % PEUT ETRE EN TROISIEME?
+
+\para{
+	Devoir préparer un colis ne contenant qu'un ou deux élément est une opération quotidienne dans l'univers de la préparation de commandes pour Polysoft. Plusieurs raisons peuvent justifier la demande d'un tel colis. En premier lieu, il peut s'agir d'un complement de commande. Un restaurant utilise le matériel de l'Addition et s'est agrandi depuis, ayant alors besoin de nouvelles machines. Il s'agit alors de paramétrer les quelques éléments à envoyer pour s'intégrer parfaitement au paramétrage déjà existant sur place.
+}
+
+\para{
+	Il peut également s'agir d'une commande \og METRO \fg . En effet, l'entreprise \emph{Polysoft} est en partenariat avec l'entreprise \emph{METRO}\footnote{grossiste pour professionnels, notamment dans le domaine informatique}, qui nous demande très régulierement des imprimantes et routeurs. Pour ces produits, le paramétrage suis toujours le même protocole.
+}
+
+\para{
+	Enfin, il est quelques fois possible de devoir expédier des colis ne contenant que quelques produits non paramétrés. Les raisons sont diverses, mais il s'agit toujours de professionnels ayant besoins uniquement de certaines pieces particulières et se reservent le choix du paramétrage de ces outils.
+}
+
 	\section{Commande d'un restaurant de petite taille}
+	\label{moyens}
 		le "classico" qui est en gros une TMT20 et sa bobine,un routeur Archer C20i, du câblage , une multiprise, un tiroir caisse et un iPad
 	\section{Commande d'un restaurant de grande taille}
+	\label{grands}
 		Cette fois-ci, on a un nuc, souvent 2 unifis (deux salles, ou un etage + un rez de chaussée, un dedans et un dehors, enfin bref, une plus grande superficie), plusieurs TMT20 et bobine,  plusieurs tiroirs caisses, un routeur, un siwtch pour la connectique, plusieurs iPad (on a 1 iPad par TMT20 et tiroir caisse), du  cablage et plusieurs multiprises
 	\section{Autres tâches}
 		Comptabilité de la caisse, paperasse, rangement du matériel pour réduire l'encombrement, faire le stock, verifier les bons de commande et rager le matériel commandé puis reçu, parler du câblage, plus petits ajouts comme une boite pour les étiquettes et des ajouts dans des procédures
@@ -174,7 +225,7 @@
 	je parle NOTAMMENT des histoires de vols et donc que ben les choses se sont pas mal arrangés pour l'entreprise
 	\section{Bilan personnel}
 	personnellement ça m'a fait grandir et avancer, et m'a aussi fait prendre de l'assurance (je manquais de pratique et donc d'itnitiative, j'ai beaucoup gagné à ce niveau là , surtout sur la fin où je me debrouillais toujours pour résoudre mes problemes de paramétrage seul), mais ça a été assez éprouvant avec ces histoires compliquées
-	Ça m'a fait plonger dans le monde des relations au travail, que j'imaginais beaucoup plus simples, et ça m'a fait beaucoup bosser :) Evidemment, il faut parler du fait de s'être formé au LATEX ! 
+	Ça m'a fait plonger dans le monde des relations au travail, que j'imaginais beaucoup plus simples, et ça m'a fait beaucoup bosser :) Evidemment, il faut parler du fait de s'être formé au LATEX !
 
 %
 % VOIR CHAPITRE BIBLIOGRAPHIE (mettre un lien vers le code sourcelatex, maybe un github)
@@ -192,7 +243,7 @@
 \addcontentsline{toc}{chapter}{Conclusion}
 
 \para{
-	\og Tout progrès de l'action profite à la connaissance. Tout progrès de la connaissance profite à l'action. \fg \footnote{Edgard Morin, \emph{La Méthode}, 1977}. Cette affirmation d'Edgard Morin met en exergue la nécessaire et fructueuse interaction de la pratique et de la théorie. Au fil des études, les Travaux Dirigés, Travaux Pratiques et stages participent de cette stratégie pédagogique soucieuse de donner sens à l'abstrait par le concret.  
+	\og Tout progrès de l'action profite à la connaissance. Tout progrès de la connaissance profite à l'action. \fg \footnote{Edgard Morin, \emph{La Méthode}, 1977}. Cette affirmation d'Edgard Morin met en exergue la nécessaire et fructueuse interaction de la pratique et de la théorie. Au fil des études, les Travaux Dirigés, Travaux Pratiques et stages participent de cette stratégie pédagogique soucieuse de donner sens à l'abstrait par le concret.
 }
 
 \end{document}
