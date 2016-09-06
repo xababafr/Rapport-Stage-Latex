@@ -229,7 +229,15 @@
 
 	\section{Commande d'un restaurant de grande taille}
 	\label{grands}
-		Cette fois-ci, on a un nuc, souvent 2 unifis (deux salles, ou un etage + un rez de chaussée, un dedans et un dehors, enfin bref, une plus grande superficie), plusieurs TMT20 et bobine,  plusieurs tiroirs caisses, un routeur, un siwtch pour la connectique, plusieurs iPad (on a 1 iPad par TMT20 et tiroir caisse), du  cablage et plusieurs multiprises
+
+\para{
+	Pour des restaurants de plus grande taille, par exemple ayant plusieurs salles et donc nécessitant plusieurs caisses, plus de matériel est nécessaire. On a ainsi besoin de plusieurs imprimantes, iPads et tiroirs caisse fonctionnant de paire. Un seul routeur est cenpendant nécessaire, il n'y a en aucun cas besoin de plusieurs réseaux. En revanche, il est possible que les iPads trop éloignés de ce dernier ne captent pas le signal sans fil. Ces \og grandes \fg commandes couplent ainsi le routeur avec des Unifis, qui sont des amplificateur di signal Wifi. Cela permet ainsi d'étendre le réseau internet à toutes les salles du restaurant concerné. Ces Ufinis sont paramétrés et controlés grâce à un mini-PC de la marque Intel Nuc. Il est intéressant de noter que chaque Unifi nécessite deux ports ethernet sur le routeur. Les routeur utilisés (modèle C20i) ne possédant que 4 ports éthernet dsponibles, une commande avec Unifis sera donc complétée avec un Switch ethernet\footnote{un appareil permettant d'augmenter le nombre de ports ethernet femelle disponibles} qui rajoute 8 ou 16 ports supplémentaires, en fonction de la taille de la commande. De même, dans ces commandes, le câblage est plus conséquent, et plusieurs multiprises sont expédiés, pour faciliter l'installation sur place.
+}
+
+\para{
+	Concernant le paramétrage, le seul ajout est le paramétrage du Mini-PC Nuc, puis des Unifis. Nous commençons par monter le mini-PC\footnote{la mémoire vive et le disque durs, deux seuls composants à monter, sont toujours présents dans le stock de Polysoft}. Il s'agit ensuite de tester le bon fonctionnement de la mémoire vive avec un MEM Test, puis d'installer le systeme d'exploitation Debian, de le mettre à jour avec le gestionnaire de paquet APT, et d'installer l'outil Teamviewer\footnote{les identifiants sont ensuite notés sur la feuille de préparation de commande}, qui permet à l'équipe de Polysoft de se connecter à distance sur ce dernier en cas de nécessité d'intervention rapide. Une fois le Nuc paramétré, le paramétrage des Unifis est fait. Il s'agit tout simplement de relier ceux-ci à l'ordinateur de la marque Intel et au routeur, puis de vérifier le bon fonctionnement de cette liaison\footnote{on vérifie qu'il est possible de connecter les Ipads de la commande au réseau Wifi créé puis étendu par les Unifis}
+}
+
 	\section{Autres tâches}
 		Comptabilité de la caisse, paperasse, rangement du matériel pour réduire l'encombrement, faire le stock, verifier les bons de commande et rager le matériel commandé puis reçu, parler du câblage, plus petits ajouts comme une boite pour les étiquettes et des ajouts dans des procédures
 
